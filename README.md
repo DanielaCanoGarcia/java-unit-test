@@ -1,0 +1,2 @@
+1. javac -cp .;lib\junit_junit_4.13.2_junit-4.13.2.jar;lib\org_hamcrest_hamcrest-core_1.3_hamcrest-core-1.3.jar;lib\junit-platform-console-standalone-1.11.3.jar calculadora\Calculator.java calculadora\CalculatorTest.java -d out
+2. java -jar lib\junit-platform-console-standalone-1.11.3.jar --class-path out;lib\junit_junit_4.13.2_junit-4.13.2.jar;lib\org_hamcrest_hamcrest-core_1.3_hamcrest-core-1.3.jar --class-path out --scan-class-path
